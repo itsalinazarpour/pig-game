@@ -1,0 +1,179 @@
+@media screen and (max-width:1024px) {
+    html {
+        font-size: 60%;
+    }
+
+    main {
+        width: 90rem;
+        height: 55rem;
+    }
+
+    .current {
+        width: 55%;
+        padding: 1rem;
+    }
+
+    .score {
+        font-size: 6rem;
+    }
+}
+
+@media screen and (max-width:900px) {
+    html {
+        font-size: 55%;
+    }
+
+    main {
+        width: 85rem;
+        height: 50rem;
+        overflow: hidden;
+    }
+
+    .score {
+        font-size: 6rem;
+    }
+
+    .btn--roll {
+        top: 34.3rem;
+    }
+
+    .btn--hold {
+        top: 41.1rem;
+    }
+
+
+}
+
+@media screen and (max-width:768px) {
+    html {
+        font-size: 50%;
+    }
+
+    .player {
+        padding: 7rem;
+    }
+
+    .name {
+        font-size: 3rem;
+    }
+
+    .score {
+        font-size: 5rem;
+    }
+
+    main {
+        width: 72rem;
+    }
+
+
+}
+
+@media screen and (max-width:600px) {
+    html {
+        font-size: 47%;
+    }
+
+    .btn--new {
+        top: 2rem;
+    }
+
+    .btn {
+        padding: 0.4rem 1.5rem;
+        font-size: 1.6rem;
+    }
+
+    main {
+        width: 61rem;
+    }
+}
+
+@media screen and (max-width:530px) {
+    .current-label {
+        margin-bottom: .4rem;
+        font-size: 1.5rem;
+    }
+
+    .dice {
+        height: 7rem;
+    }
+}
+
+@media screen and (max-height:416px) {
+    .btn--new {
+        top: 8rem;
+    }
+
+    .dice {
+        height: 7rem;
+        top: 13.5rem
+    }
+
+    .btn--roll {
+        top: 33rem;
+    }
+
+    .btn--hold {
+        top: 40rem;
+    }
+}
+
+@media screen and (max-height:305px) {
+    main {
+        height: 36rem;
+    }
+
+    .btn--new {
+        top: 2rem;
+    }
+
+    .btn {
+        padding: 0.4rem 1.5rem;
+        font-size: 1.6rem;
+    }
+
+    .dice {
+        height: 7rem;
+        top: 13.5rem
+    }
+
+    .btn--roll {
+        top: 28rem;
+    }
+
+    .btn--hold {
+        top: 33rem;
+    }
+}
+
+@media screen and (max-height:370px) {
+    main {
+        height: 37rem;
+    }
+
+    .btn--new {
+        top: 3rem;
+    }
+
+    .dice {
+        height: 6rem;
+        top: 13rem
+    }
+
+    .btn--roll {
+        top: 24rem;
+    }
+
+    .btn--hold {
+        top: 30rem;
+    }
+}
+
+@media screen and (max-width:470px) {
+    main {
+        display: none;
+    }
+
+    .rotate {
+        display: inline;
+    }
+}
