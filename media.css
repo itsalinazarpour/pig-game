@@ -85,9 +85,7 @@
     main {
         width: 61rem;
     }
-}
 
-@media screen and (max-width:530px) {
     .current-label {
         margin-bottom: .4rem;
         font-size: 1.5rem;
@@ -97,6 +95,8 @@
         height: 7rem;
     }
 }
+
+
 
 @media screen and (max-height:416px) {
     .btn--new {
