@@ -76,14 +76,7 @@ main {
   position: relative;
   width: 100rem;
   height: 60rem;
-  background-color: rgb(54 0 175 / 35%);
-  -webkit-backdrop-filter: blur(200px);
-  -moz-backdrop-filter: blur(200px);
-  -ms-backdrop-filter: blur(200px);
-  -o-backdrop-filter: blur(200px);
-  backdrop-filter: blur(200px);
-
-  filter: blur();
+  background: linear-gradient(to top right, #842a51, #880c77);
   box-shadow: 0 3rem 5rem rgba(0, 0, 0, 0.25);
   border-radius: 9px;
   overflow: hidden;
@@ -254,7 +247,7 @@ main {
   font-size: 3rem;
   padding: 5rem;
   overflow: auto;
-  background: linear-gradient(to top right, #842a51, #880c78);
+  background: linear-gradient(to top right, #842a51, #880c77);
   z-index: 1;
   transition: all 1s;
 }

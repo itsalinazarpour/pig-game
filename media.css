@@ -160,16 +160,6 @@
     }
 
     .btn--roll {
-        top: 28rem;
-    }
-
-    .btn--hold {
-        top: 33rem;
-    }
-}
-
-@media screen and (max-height:290px) {
-    .btn--roll {
         top: 26rem;
     }
 
@@ -177,6 +167,8 @@
         top: 31rem;
     }
 }
+
+
 
 @media screen and (max-width:470px) {
     main {
