@@ -114,10 +114,16 @@
 
 <!-- USAGE EXAMPLES -->
 ## Usage
-This is a great game which you can have a good time playing it with one of your friends. 
-it's totally responsive for different devices.
-You should roll the dice in your term and hold your points when you want. you can risk on your points and keep rolling but remember if you get <img src="dice-1.png" alt="Logo" width="20" height="20"> you will lose all of your current points.
-The one who reach 100 first, will win the game.
+## How to play Pig Game?
+Each turn, a player repeatedly rolls a dice until either a 1 is rolled or the player decides to "HOLD":
+
+If the player rolls a 1, their current points will be 0 and it becomes the next player's turn.
+
+If the player rolls any other number, it is added to their current score and the player's turn continues.
+
+If a player chooses to "HOLD", their current points is added to their score, and it becomes the next player's turn.
+
+The first player to score 100 or more points wins.
 
 _For more examples, please refer to the [Documentation](https://github.com/itsalinazarpour/pig-game)_
 
