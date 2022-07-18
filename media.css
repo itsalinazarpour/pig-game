@@ -18,7 +18,7 @@
     }
 }
 
-@media screen and (max-width:900px) {
+@media screen and (max-width:920px) {
     html {
         font-size: 55%;
     }
@@ -44,7 +44,7 @@
 
 }
 
-@media screen and (max-width:768px) {
+@media screen and (max-width:812px) {
     html {
         font-size: 50%;
     }
@@ -99,9 +99,7 @@
 
 
 @media screen and (max-height:416px) {
-    .btn--new {
-        top: 8rem;
-    }
+
 
     .dice {
         height: 7rem;
@@ -114,6 +112,31 @@
 
     .btn--hold {
         top: 40rem;
+    }
+}
+
+
+
+@media screen and (max-height:370px) {
+    main {
+        height: 37rem;
+    }
+
+    .btn--new {
+        top: 3rem;
+    }
+
+    .dice {
+        height: 6rem;
+        top: 13rem
+    }
+
+    .btn--roll {
+        top: 24rem;
+    }
+
+    .btn--hold {
+        top: 30rem;
     }
 }
 
@@ -145,26 +168,13 @@
     }
 }
 
-@media screen and (max-height:370px) {
-    main {
-        height: 37rem;
-    }
-
-    .btn--new {
-        top: 3rem;
-    }
-
-    .dice {
-        height: 6rem;
-        top: 13rem
-    }
-
+@media screen and (max-height:290px) {
     .btn--roll {
-        top: 24rem;
+        top: 26rem;
     }
 
     .btn--hold {
-        top: 30rem;
+        top: 31rem;
     }
 }
 

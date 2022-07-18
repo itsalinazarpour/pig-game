@@ -13,7 +13,9 @@ const btnHold = document.querySelector(".btn--hold");
 const player0El = document.querySelector(".player--0");
 const player1El = document.querySelector(".player--1");
 const playerActiveEl = document.querySelector(".player--active");
-
+// ali's
+const btnHow = document.querySelector(".btn-how");
+const howContainerEl = document.querySelector(".how-container");
 // set initial score to "0"
 
 let currentScore, scores, activePlayer, playing;
@@ -27,6 +29,7 @@ const init = function () {
   current1El.textContent = 0;
   current0El.textContent = 0;
   diceEl.classList.add("hidden");
+  diceEl.src = "";
   player0El.classList.remove("player--winner");
   player1El.classList.remove("player--winner");
   player0El.classList.add("player--active");
@@ -67,6 +70,7 @@ btnRoll.addEventListener("click", function () {
 // implement hold button
 
 btnHold.addEventListener("click", function () {
+  if (diceEl.getAttribute("src") === "") return;
   if (playing) {
     scores[activePlayer] += currentScore;
     document.getElementById(`score--${activePlayer}`).textContent =
@@ -89,3 +93,12 @@ btnHold.addEventListener("click", function () {
 });
 
 btnNew.addEventListener("click", init);
+
+// how to play
+btnHow.addEventListener("click", function (e) {
+  e.preventDefault();
+  player0El.classList.toggle("hidden");
+  player1El.classList.toggle("hidden");
+  howContainerEl.classList.toggle("hidden");
+  btnHow.innerHTML = btnHow.textContent === "?" ? "&#10006;" : "?";
+});

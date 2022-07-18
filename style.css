@@ -249,3 +249,31 @@ main {
   opacity: 0.8;
   display: none;
 }
+
+.how-container {
+  font-size: 3rem;
+  padding: 5rem;
+  overflow: auto;
+  background: linear-gradient(to top right, #842a51, #880c78);
+  z-index: 1;
+  transition: all 1s;
+}
+
+
+
+.btn-how {
+  background: none;
+  border: none;
+  z-index: 2;
+  font-size: 1.8rem;
+  position: absolute;
+  right: 25px;
+  top: 28px;
+  color: rgba(221, 221, 221, 0.537);
+  background-color: rgba(0, 0, 0, 0.3);
+
+  cursor: pointer;
+  width: 3rem;
+  height: 3rem;
+  border-radius: 50%;
+}

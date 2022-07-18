@@ -50,7 +50,35 @@
       <button class="btn btn--new">🔄 New game</button>
       <button class="btn btn--roll">🎲 Roll dice</button>
       <button class="btn btn--hold">📥 Hold</button>
+
+      <div class="how-container hidden">
+        <h3>How to play <b>Pig Game</b>?</h3>
+        <ul>
+          <p>
+            <b>
+              Each turn, a player repeatedly rolls a dice until either a 1 is
+              rolled or the player decides to "HOLD":
+            </b>
+          </p>
+          <li>
+            If the player rolls a 1, their current points will be 0 and it
+            becomes the next player's turn.
+          </li>
+          <li>
+            If the player rolls any other number, it is added to their current
+            score and the player's turn continues.
+          </li>
+          <li>
+            If a player chooses to "HOLD", their current points is added to
+            their score, and it becomes the next player's turn.
+          </li>
+        </ul>
+        <p><b>The first player to score 100 or more points wins.</b></p>
+      </div>
+
+      <button class="btn-how">?</button>
     </main>
+
     <img class="rotate" src="phone.gif" alt="Rotate your device" />
     <script src="script.js"></script>
   </body>
